@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+  <style>
+    .lbl{
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: blue;
+        text-shadow: 2px 2px 4px rgb(46, 46, 167) ;
+        border: 1px solid;
+        
+        
+    }
+    .inp{
+        background-color: lightgray;
+        border: none;
+        height: 20px;
+        width: 200px;
+        text-indent: rgb(36, 35, 35);
+        letter-spacing: 0.15em;
+        box-shadow: 2px 2px 4px rgb(46, 46, 167)
+        
+    }
+    .form{
+        border: 1px solid;
+        border-width: 3px;
+        border-color: orangered;
+        width: 400px;
+        padding: 10px;
+        margin: 20px auto;
+    }
+    
+
+  </style>
+
+</head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<body>
+    <form action="" class="form">
+<label class="lbl" for="fname">First Name:</label>
+<input class="inp" type="text" id="fname"><br><br>
+
+<label class="lbl" for="lname">Last Name:</label>
+<input class="inp" type="text" id="lname"><br><br>
+
+<label class="lbl" for="fathername">Father Name:</label>
+<input class="inp" type="text" id="fathername"><br><br>
+
+<label class="lbl" for="age">Age:</label>
+<input class="inp" type="number" id="age"><br><br>
+
+<label class="lbl" for="eml">Email:</label>
+<input class="inp" type="text" id="eml"><br><br>
+
+<label class="lbl" for="cnt">Contact:</label>
+<input class="inp" type="text" id="cnt"><br><br>
+
+<button  id="btn" type="button">Submit</button><br><br>
+
+<button id="download">Download User Data</button>
+
+</form>
+
+    <script src="./app.js"></script>
+</body>
+</html>
